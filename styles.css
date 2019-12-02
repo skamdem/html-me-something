@@ -1,0 +1,110 @@
+body {
+	width: 100%;
+	/*max-width: 1024px;*/
+	margin: 2em 2em;
+	font-size: 1.5em;
+	background-color: rgb(173, 185, 240);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#header1, #header2 {
+	padding: 1.875em 0;
+}
+
+.header_title {
+    text-align: center;
+    color : brown;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+div .sectiosn {
+	margin: 1.875em 0;
+}
+
+div .section:first-child {
+	margin-top: 0;
+}
+
+div .section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: block;
+	margin-right: 1em;
+	font-size: 1em;
+}
+
+/*use of element*/
+p {
+	padding: 1.25em;
+}
+
+/*use of id element*/
+#me {
+    text-align: center;
+}
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+
+img {
+	width: 600px;
+	height:400px;
+	max-width: 100%;/**/
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+        font-size: 1em;
+        color : blue;
+	}
+	body {
+		font-size: 50%;
+	}
+}
+
+/* unvisited link */
+a:link {
+color: green;
+}
+
+/* visited link */
+a:visited {
+color: green;
+}
+
+/* mouse over link */
+a:hover {
+color: red;
+}
+
+/* selected link */
+a:active {
+color: yellow;
+}
